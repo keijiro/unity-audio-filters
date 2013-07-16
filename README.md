@@ -1,4 +1,6 @@
 unity-stk-filters
 =================
 
-A Unity port of CCRMA STK library.
+A Unity (C#) port of CCRMA STK library.
+
+https://ccrma.stanford.edu/software/stk/
