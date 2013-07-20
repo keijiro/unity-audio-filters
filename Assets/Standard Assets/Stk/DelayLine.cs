@@ -1,3 +1,6 @@
+// Basic delay line class.
+// by Keijiro Takahashi, 2013.
+
 namespace Stk
 {
     public class DelayLine
@@ -8,19 +11,17 @@ namespace Stk
         int outPoint;
         int delay;
 
-        public int MaxDelay {
-            get { return buffer.Length - 1; }
-        }
-
         public int Delay {
             get { return delay; }
             set {
-                if (value <= inPoint) {
-                    outPoint = inPoint - value;
-                } else {
-                    outPoint = inPoint + buffer.Length - value;
-                }
+                if (delay + 1 > buffer.Length)
+                    throw new System.ArgumentOutOfRangeException ("Must be less than maxDelay.");
+
                 delay = value;
+
+                outPoint = inPoint - delay;
+                if (outPoint < 0)
+                    outPoint += buffer.Length;
             }
         }
     

@@ -98,7 +98,7 @@ AudioSource:
   m_GameObject: {fileID: 900473519}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 1b8c0494eb477494cba119c47de5751d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8f9959da1ef00462e8ef5adf166d0483, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -168,6 +168,7 @@ GameObject:
   - 20: {fileID: 2123327441}
   - 81: {fileID: 2123327438}
   - 114: {fileID: 2123327439}
+  - 114: {fileID: 2123327440}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -188,7 +189,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2123327437}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c431fbbb056dd48b4acab389b73194f3, type: 3}
   m_Name: 
@@ -196,6 +197,18 @@ MonoBehaviour:
   depth: .150000006
   frequency: .200000003
   wetMix: .5
+--- !u!114 &2123327440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2123327437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22ed70c60baa455f82481342855d577, type: 3}
+  m_Name: 
+  decayTime: 2
+  sendLevel: .200000003
 --- !u!20 &2123327441
 Camera:
   m_ObjectHideFlags: 0
