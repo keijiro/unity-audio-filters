@@ -83,6 +83,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 900473521}
   - 82: {fileID: 900473520}
+  - 114: {fileID: 900473522}
   m_Layer: 0
   m_Name: Test Sound
   m_TagString: Untagged
@@ -98,7 +99,7 @@ AudioSource:
   m_GameObject: {fileID: 900473519}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 8f9959da1ef00462e8ef5adf166d0483, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2a3d6ffdede934689aadb15ae46128fe, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -157,6 +158,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &900473522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 900473519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827197503ec2c43759e7479dd641ccd1, type: 3}
+  m_Name: 
+  audioClips:
+  - {fileID: 8300000, guid: 2a3d6ffdede934689aadb15ae46128fe, type: 3}
+  - {fileID: 8300000, guid: 8f9959da1ef00462e8ef5adf166d0483, type: 3}
+  - {fileID: 8300000, guid: 92ee74c1b624a4699a9965826b5dd119, type: 3}
+  - {fileID: 8300000, guid: 1b8c0494eb477494cba119c47de5751d, type: 3}
+  - {fileID: 8300000, guid: 64b5760c90e86441ebc734795145255a, type: 3}
 --- !u!1 &2123327437
 GameObject:
   m_ObjectHideFlags: 0
