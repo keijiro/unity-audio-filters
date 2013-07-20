@@ -11,7 +11,7 @@ namespace Stk
         }
 
         public float Frequency {
-            set { delta = value / UnityEngine.AudioSettings.outputSampleRate; }
+            set { delta = value / Config.SampleRate; }
         }
 
         public float Tick ()

@@ -168,7 +168,6 @@ GameObject:
   - 20: {fileID: 2123327441}
   - 81: {fileID: 2123327438}
   - 114: {fileID: 2123327439}
-  - 114: {fileID: 2123327440}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -194,21 +193,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c431fbbb056dd48b4acab389b73194f3, type: 3}
   m_Name: 
   baseDelay: .100000001
-  depth: .100000001
-  freq: .200000003
+  depth: .150000006
+  frequency: .200000003
   wetMix: .5
---- !u!114 &2123327440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2123327437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66a1f2b1152b5404ba041d4e4bd5d6d5, type: 3}
-  m_Name: 
-  decayTime: 1.5
-  wetMix: .200000003
 --- !u!20 &2123327441
 Camera:
   m_ObjectHideFlags: 0
