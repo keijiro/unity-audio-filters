@@ -1,5 +1,5 @@
 // Time-based interpolated delay line class.
-// Written by Keijiro Takahashi
+// by Keijiro Takahashi, 2013.
 
 namespace Stk
 {

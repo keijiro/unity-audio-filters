@@ -1,5 +1,5 @@
 // Not-so-memory-efficient sine wave class.
-// Written by Keijiro Takahashi
+// by Keijiro Takahashi, 2013.
 
 namespace Stk
 {

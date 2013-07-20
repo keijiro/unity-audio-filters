@@ -1,5 +1,10 @@
 // STK chorus effect class, based on CCRMA STK library.
 // https://ccrma.stanford.edu/software/stk/
+//
+// The Synthesis ToolKit in C++ (STK)
+// Copyright (c) 1995-2012 Perry R. Cook and Gary P. Scavone
+//
+// Ported by Keijiro Takahashi, 2013.
 
 namespace Stk
 {
